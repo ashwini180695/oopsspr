@@ -1,0 +1,2097 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d8b03098-b9e2-4a24-a7fe-01f7b22fe6b6",
+   "metadata": {},
+   "source": [
+    "# OOPS assignment"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "26386f84-9195-4f10-8a6b-930701a8fdcb",
+   "metadata": {},
+   "source": [
+    "# q.1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e90ad52e-9557-4719-a29f-0074718e53f7",
+   "metadata": {},
+   "source": [
+    "oops<, object oriented programming system."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d8cf0bc-c939-461a-8425-6b81ee96d97e",
+   "metadata": {},
+   "source": [
+    "# q.2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "94df3166-56fc-4b0a-aee1-1f03f65bd548",
+   "metadata": {},
+   "source": [
+    "class== is original template which can be used for creating a objects."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "28ae7080-ab1c-4470-a709-0facfafaaf11",
+   "metadata": {},
+   "source": [
+    "# q.3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "83780dbe-d103-48c9-815a-03e527ea209a",
+   "metadata": {},
+   "source": [
+    "object is xerox copy of original template"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e1c77b24-0208-4476-abf9-5cc6dc1e6b37",
+   "metadata": {},
+   "source": [
+    "# q.4"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "565340de-58f5-4e09-8461-d8e0cc69ad57",
+   "metadata": {},
+   "source": [
+    "Abstraction << to hide unnecessary code.\n",
+    "encapsulation<<hiding / bundeling of data and method of class is known as encapsulation."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a1a7e6c5-2c7d-459c-97fa-13c8121d67a1",
+   "metadata": {},
+   "source": [
+    "# q.5"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9bd209ba-cb16-49f6-a0f0-b69892855239",
+   "metadata": {},
+   "source": [
+    "Dunde method<<< This is in-built function/classes in python.\n",
+    "classes define these type of method to create custom objects.\n",
+    "it helps us to  implement operator overloading in python.\n",
+    "the method surrounding the duoble underscore is called magic/dunder method.\n",
+    "there are some useful dunder methods :\n",
+    "__init__\n",
+    "__str__\n",
+    "__new__\n",
+    "__add__\n",
+    "__repr__ etc."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "99ca8283-fb1b-46cd-81f5-0c1bd90ebdc7",
+   "metadata": {},
+   "source": [
+    "# q.6"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "80f9b05e-a9de-4d69-8220-c44f6e4b89b0",
+   "metadata": {},
+   "source": [
+    "Inheritanc refere as the process of child recieving the properties of parent class."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7976ef7d-47e1-4734-b4ac-34906075a859",
+   "metadata": {},
+   "source": [
+    "# q.7 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7005a35c-cd05-4435-af2b-6496d975904c",
+   "metadata": {},
+   "source": [
+    "polymorphism refers to an object takes a several forms or state depending upon the method in class.\n",
+    "poly== many, morphism== state "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "685a23d4-907d-46b8-9a19-63a9bd96f05b",
+   "metadata": {},
+   "source": [
+    "# q.8"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a7c17f34-483d-4753-9817-cc8e181e284f",
+   "metadata": {},
+   "source": [
+    "1. make a class/define the method.\n",
+    "2. make it private or protected by using access modifier.\n",
+    "3.access or update it by using method access modifier."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "795ab2a2-720e-4d88-8735-b994f479a834",
+   "metadata": {},
+   "source": [
+    "# q.9"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a30c0e7f-8366-4925-aa93-23e1d5dd26d5",
+   "metadata": {},
+   "source": [
+    "Consturctor is special method in class that is automatically called when object is created. __init__ method is constuctor in python.\n",
+    " __init__ it is use to initialize newly created object"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "91bc72d7-939a-4a46-bc0b-6a846db10990",
+   "metadata": {},
+   "source": [
+    "# q.10"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4e90758e-a119-4081-9fda-f29666753357",
+   "metadata": {},
+   "source": [
+    "1. Class method<< bound to the class, access/modify methods and attributes associated with it.\n",
+    "use cls instead of self.\n",
+    "2. Static methodthat does not modify class state or instance. its behave like normal function that belongs to class.\n",
+    "it doesnot req. self or cls"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "584c3502-8876-41a5-bf09-c5aecce22015",
+   "metadata": {},
+   "source": [
+    "# q.11"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9c6dff98-f433-4506-a9d7-bf4823319906",
+   "metadata": {},
+   "source": [
+    "method overloading.\n",
+    "make class and define it with multiple method with same name but different types/parameters.Only last method  will be executed in python.\n",
+    "    (python does not support overloading)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a6ad3593-f138-41d2-ba57-88ca626faaf5",
+   "metadata": {},
+   "source": [
+    "# q.12"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3154a6b2-fa32-4ab2-b9a1-f6042047c208",
+   "metadata": {},
+   "source": [
+    "Overriding==rewriting/ redefining method of parent class in child class. and it will executed only child class"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "22fb4f92-de2c-4f67-b6c8-86a78289de51",
+   "metadata": {},
+   "source": [
+    "# Q.13"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0e7886a5-0ec8-426e-b332-c9023a060efa",
+   "metadata": {},
+   "source": [
+    "Property decorators<< is used to turn a method into read only attributes.it allows us to define getters and setters so we can control access to instance variable."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eb8321fd-52ca-47d0-9314-a187e3b72624",
+   "metadata": {},
+   "source": [
+    "# q. 14"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d497fa13-f397-48f2-a837-269b728f4686",
+   "metadata": {},
+   "source": [
+    "polymorphism refers to an object takes a several forms or state depending upon the method. it can achive by method overloading or overriding.\n",
+    "needs of polymorphism= code reusability, support inheritance. make code simple and flexible."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d60bfaed-e489-4935-8924-fadfc92d3176",
+   "metadata": {},
+   "source": [
+    "# q.15"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b7fb5cbf-3a94-4e78-9d5a-2f08174e11bd",
+   "metadata": {},
+   "source": [
+    "Abstraction << to hide unnecessary code.\n",
+    "should always be subclassed"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7b4f2dd4-6d5f-4e1a-90f6-b914349cedcc",
+   "metadata": {},
+   "source": [
+    "# q.16"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eac53f51-f19f-42a0-baef-9a6fc2ba7afe",
+   "metadata": {},
+   "source": [
+    "for large and big project if we have unorder or ummixed program oops helps us to arrange the function according to their class."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f2dedbfe-db90-42ac-a30b-29fa6b44c149",
+   "metadata": {},
+   "source": [
+    "# q.17"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "047f4efc-2a16-41e6-a88f-f7e8d90049a0",
+   "metadata": {},
+   "source": [
+    "instance variable << belongs to an object define by self.\n",
+    "class variable<< belongs to its class itself.shared by all instance of the class\n",
+    "class Person:\n",
+    "    Person=0 # class variable.\n",
+    "    def __init__(self,name,age):\n",
+    "        self.name=name # instance variable."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dd0e524f-c7f7-4ce6-a53f-64e194bca2d0",
+   "metadata": {},
+   "source": [
+    "# q.18"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fcfdf065-a742-4bd1-bba8-20b129239e42",
+   "metadata": {},
+   "source": [
+    " multiple inheritanc<<eone child class inheritance a property of multiple parents."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f1b201b1-04c2-4bbe-aa85-752c47a898d4",
+   "metadata": {},
+   "source": [
+    "# q.19"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "99abe2db-a0b8-4131-b63c-9e43fa3ebdc6",
+   "metadata": {},
+   "source": [
+    "__str__ ill return string representation of method/object.\n",
+    "__repr__ represent method as it is \n",
+    " representation. it returns unambigus string representation of object as it is that can be use to recreate the object."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fc0ef75d-4b22-4392-ab1a-c1e869a40d5b",
+   "metadata": {},
+   "source": [
+    "# q.20"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4aadad3c-074d-44ef-b429-401145b0b074",
+   "metadata": {},
+   "source": [
+    " by using super() we can call or access protected variable/method within the class and subclass "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f504f394-ef41-4da3-af58-234d2aa7d24e",
+   "metadata": {},
+   "source": [
+    "# q.21"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ae6403a4-9416-4c35-8553-2305531f7402",
+   "metadata": {},
+   "source": [
+    " __del__ method << its also called as destructor.it is automatically called when object is about to destroy(if there are no reference)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a267e6ea-d9fd-4ed1-9339-c0497eb60aa5",
+   "metadata": {},
+   "source": [
+    "# q.22"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3ec6a624-f20d-40e5-ba69-d23d72e13a05",
+   "metadata": {},
+   "source": [
+    "1. Class method<< bound to the class, access/modify methods and attributes associated with it.\n",
+    "use cls instead of self.\n",
+    "2. Static methodthat does not modify class state or instance. its behave like normal function that belongs to class.\n",
+    "it doesnot req. self or cls"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e1a54335-db74-4e58-a5c5-298fad98c07f",
+   "metadata": {},
+   "source": [
+    "# q.23"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ab5133b0-f2e4-4fcb-b7f6-6f27289e697a",
+   "metadata": {},
+   "source": [
+    "polymorphism in inheritance use method overriding,  in which method in parent and child class with same signiture, the child class will executed."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3461789d-4d72-43d1-be9b-83d982c3c1f8",
+   "metadata": {},
+   "source": [
+    "# q.24"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b361d237-b90f-447f-8894-58df7ae387b5",
+   "metadata": {},
+   "source": [
+    "chaining method is a technique where multiple method are called on the same object in a single line one after the other."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f19a9bc5-0bc2-450b-889a-53c4d0cbcc8d",
+   "metadata": {},
+   "source": [
+    "# q.25"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bc7467cf-e2e5-4afa-9915-61333e9ef93c",
+   "metadata": {},
+   "source": [
+    "__call__  methods allows an object to be called  like a function .make an object behave like a function."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eb9d4c46-5f59-48f0-a6aa-dcfd0a23d3e7",
+   "metadata": {},
+   "source": [
+    "# practical question "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f0916ecc-3dd6-4fb2-b533-bfa439f3c26b",
+   "metadata": {},
+   "source": [
+    "# q.1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "5c75696e-5584-4bef-b46b-43d9426b407c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Animal():\n",
+    "    def speak(self):\n",
+    "        print(\"can speak\")\n",
+    "class dog(Animal):\n",
+    "    def speak(self):\n",
+    "        print(\"bark\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d272d5e7-e487-434b-b492-493a6d714010",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "can speak\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=Animal()\n",
+    "a.speak()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "6433c0d7-8c07-4bb0-8e7b-77f0460632ab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bark\n"
+     ]
+    }
+   ],
+   "source": [
+    "b=dog()\n",
+    "b.speak()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "52299647-c185-4416-898e-4d76ebe9bb40",
+   "metadata": {},
+   "source": [
+    "# q.2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "8b723bb0-5201-4d8e-a5a2-06ea323272fa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import abc"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "cde0263b-c011-439e-8fe2-1a6b52d778cd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Shape:\n",
+    "    @abc.abstractmethod\n",
+    "    def calculate_area(self):\n",
+    "        pass\n",
+    "class Rectangle(Shape):\n",
+    "    def calculate_area(self):\n",
+    "        return \"length * breadth\"\n",
+    "class Circle(Shape):\n",
+    "    def calculate_area(self):\n",
+    "        return \"pi*r**2\"     "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "2b6f4565-f3e2-4a9b-b835-75adbd1b9d24",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "r=Rectangle()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "3932f8c2-b55b-41f8-aa3e-320efc51f336",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'length * breadth'"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "r.calculate_area()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "42263d86-b421-491a-b3f1-677781f22941",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c=Circle()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "9b85f62d-d42c-46a9-ae9d-4fab1b34fad7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pi*r**2'"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c.calculate_area()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c9a80f81-36ec-4582-be1d-8a0f6caf4a9d",
+   "metadata": {},
+   "source": [
+    "# q.3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "8feb8f68-ff1e-4693-8a5e-43123368fd20",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Vehicle:\n",
+    "    def vehicle_info(self):\n",
+    "        print(\"inside the vehicle type\")\n",
+    "class Car(Vehicle):\n",
+    "    def Car_info(self):\n",
+    "        print(\"work on fule or electricity.\")\n",
+    "class ElectricCar(Car):\n",
+    "    def elect_info(self):\n",
+    "        print(\"work on battery.\")  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "26a9e243-0c0e-4333-86e1-a6b5315b56f7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=ElectricCar()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "eae9f249-7234-4fa8-85fd-00349fe9db34",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "work on fule or electricity.\n"
+     ]
+    }
+   ],
+   "source": [
+    "x.Car_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ff4ac6b9-097d-4377-a64b-6ab849e0342e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "inside the vehicle type\n"
+     ]
+    }
+   ],
+   "source": [
+    "x.vehicle_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "a33efaff-74dd-465f-8d90-48568964301f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "work on battery.\n"
+     ]
+    }
+   ],
+   "source": [
+    "x.elect_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c726c206-1084-4115-8a27-b2bf6102a342",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y= Car()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "da5cac5a-30df-4aff-ba2d-958b51bcdaac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "work on fule or electricity.\n"
+     ]
+    }
+   ],
+   "source": [
+    "y.Car_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "2d01ac43-9551-4fca-b120-5b26daff8850",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "inside the vehicle type\n"
+     ]
+    }
+   ],
+   "source": [
+    "y.vehicle_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "f5c8d212-3a33-453d-901e-88d507348e7c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z=Vehicle()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "31338c41-f157-48ac-b933-fbab8599dac0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "inside the vehicle type\n"
+     ]
+    }
+   ],
+   "source": [
+    "z.vehicle_info()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8791b2ed-4bdc-471c-a97c-6b71f8ccfc57",
+   "metadata": {},
+   "source": [
+    "# q.4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0b0e8f7d-139a-4fb2-95e9-bb025ab8a84b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Bird:\n",
+    "    def fly(self):\n",
+    "        print(\"birds can fly\")\n",
+    "class Sparrow(Bird):\n",
+    "    def fly(self):\n",
+    "        print(\"sparrow can fly\")\n",
+    "class Penguin(Bird):\n",
+    "    def fly(self):\n",
+    "        print(\"penguin cant fly\")\n",
+    "    def penguin_info(self):\n",
+    "        print(\" they can swim\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "77576238-0f9e-49ab-a1d5-df1eba3ab455",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p=Penguin()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "c31b5b8b-2859-426f-815f-1958e3b751d3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "penguin cant fly\n"
+     ]
+    }
+   ],
+   "source": [
+    "p.fly()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "1de94d9e-650e-423e-9196-593c03c63f61",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " they can swim\n"
+     ]
+    }
+   ],
+   "source": [
+    "p.penguin_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "7595d9d6-af07-4e09-82e7-c18ea99798a4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=Sparrow()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "03b72314-7f8a-4cbb-9e51-4f68f8953016",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "sparrow can fly\n"
+     ]
+    }
+   ],
+   "source": [
+    "s.fly()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7197cdfe-03c9-4d65-9f9a-b9ccb4f15c8e",
+   "metadata": {},
+   "source": [
+    "# q.5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "74400c7c-fb4c-423f-a3d6-988b7a10fefa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Bank:\n",
+    "    def __init__(self,balance):\n",
+    "        self.__balance=balance\n",
+    "    def deposit(self,amount):\n",
+    "        self.__balance= self.__balance+ amount\n",
+    "    def withdraw(self,amount):\n",
+    "        if self.__balance>=amount:\n",
+    "            self.__balance=self.__balance-amount\n",
+    "            return \"you can withdraw\"\n",
+    "        else:\n",
+    "            return \"insufficient balance\"\n",
+    "    def check_balance(self):\n",
+    "        return self.__balance"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "e5a31f41-51d2-4324-af63-99341304d0f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=Bank(1000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "fbeacec5-7c36-4269-ad79-9ec3205f8967",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1000"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b.check_balance()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "36cf8e0e-c839-44b0-9e09-0d914911de9f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b.deposit(1000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "a2661119-1673-4a0d-9f53-d51648793328",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2000"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b.check_balance()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "d8c2e8d8-21c5-4801-b2e7-09c0597e3275",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'you can withdraw'"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b.withdraw(500)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8303c39d-045d-4c7c-8ccd-d0c8af212288",
+   "metadata": {},
+   "source": [
+    "# q.6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "48a194d6-7de1-4b1c-ac3f-428cec3028e6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Instrument:\n",
+    "    def play(self):\n",
+    "        print(\"it  can be various typoe\")\n",
+    "class Guitar(Instrument):\n",
+    "    def play(self):\n",
+    "        print(\" melodious music\")\n",
+    "class Piano(Instrument):\n",
+    "    def play(self):\n",
+    "        print(\"soothing sound\")\n",
+    "    def piano_info(self):\n",
+    "        print(\"big size instrument than guitar \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "f9af002d-b313-4149-98e1-5618b82822f7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "g=Guitar()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "531bd650-8c51-4cb0-bff8-edd37b8dc1b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " melodious music\n"
+     ]
+    }
+   ],
+   "source": [
+    "g.play()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "98689949-5b14-4d9c-934f-f98ef3f152ec",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p=Piano()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "342deffb-5864-4968-ab47-a5d5c60d5340",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "soothing sound\n"
+     ]
+    }
+   ],
+   "source": [
+    "p.play()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "07735251-c825-45d0-9ab4-1445c38f78a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "big size instrument than guitar \n"
+     ]
+    }
+   ],
+   "source": [
+    "p.piano_info()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6affa3bc-c6d8-4a30-81a6-13e70625e799",
+   "metadata": {},
+   "source": [
+    "# q.7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "a72a7265-2ceb-4a4f-99bd-a93fa32ae042",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class MathOperation:\n",
+    "    @classmethod\n",
+    "    def add_numbers(cls,num1,num2):\n",
+    "        return num1+num2       "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "83ca6bef-6383-40da-811b-6195407adfa6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "11"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "MathOperation.add_numbers(5,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "81ef437a-27e6-4ec9-9e05-e30a002f71ba",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class MathOperation:\n",
+    "    @staticmethod\n",
+    "    def substract(x,y):\n",
+    "        return x-y "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "aac83174-4dce-400f-8f57-51846817a4a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "MathOperation.substract(11,9)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "89cb1f20-e10c-4924-b788-29491c07e7f8",
+   "metadata": {},
+   "source": [
+    "# q.8"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "dca27faa-db49-4d4b-b4aa-922442f2e015",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Person:\n",
+    "    total_person=0 # class variable\n",
+    "    def __init__(self,name):\n",
+    "        self.name=name # instance variable\n",
+    "        Person.total_person= Person.total_person+1\n",
+    "    @classmethod\n",
+    "    def count_total_person(cls):\n",
+    "        return cls.total_person "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "a433ac8c-1177-4ff5-9741-64e2c4539569",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Person.total_person"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "13fc8c54-d142-4d12-afa4-1d6c22cf7823",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p1=Person(\"ram\")\n",
+    "p2=Person(\"shyam\")\n",
+    "p3=Person(\"mohan\")\n",
+    "P4=Person(\"radhika\")\n",
+    "p5=Person(\"anant\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "c71dd1ba-880b-4d55-b65a-c252d24ed4d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Person.total_person"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "4a748335-b0ab-421b-9575-fdcd75e4d1f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Person.count_total_person()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "528da562-4985-4b39-8460-2188bd80da56",
+   "metadata": {},
+   "source": [
+    "# q.9"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "bf453dd1-8722-4110-b3ed-73803e044501",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Fraction:\n",
+    "    def str_info(self):\n",
+    "        print(\"fraction\")\n",
+    "    def numeratort_info(self):\n",
+    "        print(\"numerator\")\n",
+    "    def denometer_info(self):\n",
+    "        print(\"denometer\")\n",
+    "    def str_info(self):\n",
+    "        print(\"numerator/denometer\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "3c2b6ede-f456-4b84-8dbe-a2000bcf85be",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "w=Fraction()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "302f4f7d-0a91-4948-972c-a4542a98791f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "numerator/denometer\n"
+     ]
+    }
+   ],
+   "source": [
+    "w.str_info()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8254f988-5016-4793-aade-e4e7a5977fdb",
+   "metadata": {},
+   "source": [
+    "# q.10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 135,
+   "id": "726a27a5-e38e-4525-8112-8faa6a5781d1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Vector:\n",
+    "    def add_info(self):\n",
+    "        print(\"vector calculation\")\n",
+    "    def add_info(self,vector1=\" \"):\n",
+    "        print(\" vector addition\")\n",
+    "    def add_info(self,vector1=\" \",vector2=\" \"):\n",
+    "        print(\"add vector1+vector2\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 137,
+   "id": "197994e6-2111-4768-89c2-baa04e0852c5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "v=Vector()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 138,
+   "id": "634b56a4-1b7e-4789-848e-2abb012f4b45",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "add vector1+vector2\n"
+     ]
+    }
+   ],
+   "source": [
+    "v.add_info()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 140,
+   "id": "78d60441-fe78-4dbc-931d-a01a64997e9a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "add vector1+vector2\n"
+     ]
+    }
+   ],
+   "source": [
+    "v.add_info(\"ab\",\"cd\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "075a20d4-7688-4498-b097-1b3a9f355ad3",
+   "metadata": {},
+   "source": [
+    "# q.11"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "f8333e96-bc2d-4fb0-a7ab-5ec01fbae685",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Person:\n",
+    "    def __init__(self,name,age):\n",
+    "        self.name=name\n",
+    "        self.age=age\n",
+    "    def greet(self):\n",
+    "       print(\"hello, my name is\",self.name,\"and i am\", self.age ,\"years old\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "f8e72e0f-402f-446a-a94c-69b4d8e6d9a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p=Person(\"shyam\",22)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "c7050d9c-ffb7-4a1c-bd70-a25a31f0e132",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello, my name is shyam and i am 22 years old\n"
+     ]
+    }
+   ],
+   "source": [
+    "p.greet()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "80158fb6-db0c-4d5a-b724-d98df209abe9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'shyam'"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p.name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "2e713fd9-c541-4409-a021-31ac36e2e1b9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "22"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p.age"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "293dda44-248e-4f8f-a631-2d3e7f7e1fc4",
+   "metadata": {},
+   "source": [
+    "# q. 12"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "6a66c4ab-21d8-4330-ac7d-7efd65eea4be",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Student:\n",
+    "    def __init__(self,name,grades):\n",
+    "        self.name=name\n",
+    "        self.grade=grade\n",
+    "        Student=[(\"ash\",86),(\"nisha\",88),(\"raj\",90)]  \n",
+    "    def average_grade(self):\n",
+    "        total=0\n",
+    "        for i in Student:\n",
+    "            total+= i.grade\n",
+    "            average= total/len(student)\n",
+    "        return average"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "505de25e-43df-41ed-92cf-a1f5495aa8db",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'grade' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[4], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m s\u001b[38;5;241m=\u001b[39mStudent(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mash\u001b[39m\u001b[38;5;124m\"\u001b[39m,\u001b[38;5;241m89\u001b[39m)\n",
+      "Cell \u001b[1;32mIn[2], line 4\u001b[0m, in \u001b[0;36mStudent.__init__\u001b[1;34m(self, name, grades)\u001b[0m\n\u001b[0;32m      2\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m \u001b[38;5;21m__init__\u001b[39m(\u001b[38;5;28mself\u001b[39m,name,grades):\n\u001b[0;32m      3\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mname\u001b[38;5;241m=\u001b[39mname\n\u001b[1;32m----> 4\u001b[0m     \u001b[38;5;28mself\u001b[39m\u001b[38;5;241m.\u001b[39mgrade\u001b[38;5;241m=\u001b[39mgrade\n\u001b[0;32m      5\u001b[0m     Student\u001b[38;5;241m=\u001b[39m[(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mash\u001b[39m\u001b[38;5;124m\"\u001b[39m,\u001b[38;5;241m86\u001b[39m),(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mnisha\u001b[39m\u001b[38;5;124m\"\u001b[39m,\u001b[38;5;241m88\u001b[39m),(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mraj\u001b[39m\u001b[38;5;124m\"\u001b[39m,\u001b[38;5;241m90\u001b[39m)]\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'grade' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "s=Student(\"ash\",89)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fa90de45-8c74-426c-9b8b-954da0526bb0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "414e9c08-1af7-4ed9-80c3-6f0adafa26b7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Rectangle:\n",
+    "    def __init__(self):\n",
+    "        self.width=0\n",
+    "        self.height=0\n",
+    "    def set_dimension_(self,width,height):\n",
+    "        self.width=width\n",
+    "        self.height=height\n",
+    "    def area(self):\n",
+    "        return self.width* self.height"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "746d31ad-7770-4b29-a18f-63ca9ae5d529",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "r=Rectangle()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "5aed6670-f2bb-44fc-9477-abaab1951166",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "r.set_dimension_(5,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "9be03701-e815-46eb-8bd8-d0054b738a01",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "r.area()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1e0e47a0-3685-40cb-8f03-e302350f19ba",
+   "metadata": {},
+   "source": [
+    "# q.14"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "5ac9a63a-ed17-468e-b0d5-809a33868d58",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Employee:\n",
+    "    def __init__(self,name,hours,rate):\n",
+    "        self.hours=hours\n",
+    "        self.rate=rate  \n",
+    "    def Cal_salary(self):\n",
+    "        return self.hours*self.rate\n",
+    "class Manager(Employee):     \n",
+    "    def __init__(self,name,hours,rate,bonus):\n",
+    "        self.bonus=bonus\n",
+    "        super(). __init__(name,hours,rate)\n",
+    "    def calculate_total(self):\n",
+    "        total_salary=0\n",
+    "        super().Cal_salary()\n",
+    "        return total_salary+self.bonus"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "53ab7510-d5d2-49ce-9ba0-6e779c3e49ab",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "e=Employee(\"rahi\",240,125)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "e04ee905-3e32-4573-91c0-42b96c435482",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30000"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "e.Cal_salary()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "a0983ff0-524b-4d83-9c71-b9071028b48f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=Manager(\"mahi\",230,125,1000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "f9ada34e-d662-4e7e-ba9e-38652c6996af",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1000"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b.calculate_total()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "76c37fd4-2422-4efe-a015-7244305bf1ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "28750"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b.Cal_salary()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "67fb4234-411b-4192-8b92-4475567c11c7",
+   "metadata": {},
+   "source": [
+    "# q.15"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "id": "da5b9a50-e763-44ef-b38f-da9e9eb3dd66",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Product:\n",
+    "    def __init__(self,name,price,quantity):\n",
+    "        self.name=name\n",
+    "        self.price= price\n",
+    "        self.quantity= quantity\n",
+    "    def total_price(self):\n",
+    "        return self.price* self.quantity"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "bbe75d73-9108-47e3-8ebd-0a37547591ce",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p=Product(\"mobile\",23000,4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "b9b4189c-0b45-4397-9a9f-f15ecfed5f11",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "92000"
+      ]
+     },
+     "execution_count": 130,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p.total_price()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c8dc3d99-3799-415d-bdfb-d455e6a1cd0d",
+   "metadata": {},
+   "source": [
+    "# q.16"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "de9fae95-a566-480a-92e9-672a38246aba",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Animal:\n",
+    "    @abc.abstractmethod\n",
+    "    def sound(self):\n",
+    "        pass\n",
+    "class Cow(Animal):\n",
+    "    def sound(self):\n",
+    "        return \"oommmbbaa\"\n",
+    "class Sheep(Animal):\n",
+    "    def sound(self):\n",
+    "        return \"mehhhhhhy\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "98eb47bb-d9f7-4021-8e22-b5934fa455ad",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=Sheep()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "ddb4dbed-8eed-45a9-a1dd-13b23132c1db",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'mehhhhhhy'"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.sound()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "1878960a-a0f3-4409-b4f6-982c40086712",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c=Cow()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "ce0c9e0b-f2cd-4e19-a83d-9f8aa750b75e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'oommmbbaa'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c.sound()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d2aeb2ac-4bac-4a53-8d0d-7e8d76d186fd",
+   "metadata": {},
+   "source": [
+    " # q.17"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "9d6a0afa-70ba-41d0-b68d-0f594ff6948d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Book:\n",
+    "    def __init__(self, title,author,year):\n",
+    "        self.title_of_book=title\n",
+    "        self.author_of_book=author\n",
+    "        self.year_of_published=year\n",
+    "        \n",
+    "    def get_book_info(self):\n",
+    "        print(f\"{self.title_of_book},{self.author_of_book},{ self.year_of_published}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "c37751b1-83a8-40bc-b340-8d4e13ce35d3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=Book(\"The alchemist\",\"paulo coelho\",1998)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "3fbf0f6d-2cce-46b4-a818-562d11f5da1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The alchemist,paulo coelho,1998\n"
+     ]
+    }
+   ],
+   "source": [
+    "b.get_book_info()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7a90a9c3-9262-4be1-9433-6f3dea25ab2c",
+   "metadata": {},
+   "source": [
+    "# q.18"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "28169d2a-16a8-4491-830a-a8713acdd7be",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class House:\n",
+    "    def __init__(self, address,price):\n",
+    "        self.address_of_house=address\n",
+    "        self.price_of_house=price   \n",
+    "class Mansion(House):     \n",
+    "    def __init__(self,address,price,rooms):\n",
+    "        self.no_of_rooms= rooms\n",
+    "        super(). __init__(address,price)\n",
+    "    def details_hou(self):\n",
+    "        print(f\"{self.address_of_house},{self.price_of_hous},{self.no_of_rooms}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "be1f99e4-2a9f-4442-b588-d1f4f83f2238",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "h=House(\"wing area,kolkata\",300000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "199c8783-1f3b-434e-b07c-24637fb6faf3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "300000"
+      ]
+     },
+     "execution_count": 116,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "h.price_of_house"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "id": "ca619358-75cf-4e1b-bf9d-e0fade069a6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "300000"
+      ]
+     },
+     "execution_count": 117,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "h.price_of_house"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "id": "734a66f7-89e7-48a0-8032-2541d7010e87",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m=Mansion(\"wing area,kolkata\",300000,8)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "4a1351b6-17f1-458c-ac3e-73c4400b7f7e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'wing area,kolkata'"
+      ]
+     },
+     "execution_count": 119,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.address_of_house"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "c55adb06-b026-4642-977e-d857c82b8db2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 120,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.no_of_rooms"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "65634c06-7dd2-4976-8ec5-99d3d9dc5aeb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "300000"
+      ]
+     },
+     "execution_count": 121,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m.price_of_house"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c85ab3f6-8654-44b3-90c4-b73891fc4c91",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
